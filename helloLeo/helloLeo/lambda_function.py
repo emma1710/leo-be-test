@@ -2,7 +2,7 @@ import json
 import datetime
 
 
-def handler(event, context):
+def lambda_handler(event, context):
     data = {
         'output': 'Hello World',
         'timestamp': datetime.datetime.utcnow().isoformat()
